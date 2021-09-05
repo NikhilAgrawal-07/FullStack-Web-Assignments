@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(170, 169, 169);
+}
+
+#container {
+    display: inline-flex;
+}
+
+.box {
+    border: 2px solid rgb(201, 167, 167);
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    width: 270px;
+    height: 380px;
+    padding: 10px;
+    background-color: rgb(248, 249, 250);
+    overflow: hidden;
+}
+
+.center img {
+    border-radius: 10px;
+    width: 100%;
+}
+h2{
+    font-size: 23px;
+    color: rgb(8, 8, 8);
+}
+
+p,h2 {
+    color: rgb(8, 8, 8);
+}
+.readMore a {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(253, 253, 255);
+    background-color: rgb(214, 46, 16);
+}
+
+a:hover {
+    background-color: rgb(76, 76, 160);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

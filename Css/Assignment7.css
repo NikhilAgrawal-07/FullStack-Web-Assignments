@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box ;
+}
+.container{
+    /* border: 2px solid black; */
+    width: auto;
+    margin: auto;
+}
+.header{
+    border: 2px solid grey;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.banner{
+    border: 2px solid aqua;
+    color: white;
+    background-color: aqua;
+    height: 10vw;
+    text-align: center;
+    margin: 5px;
+}
+h3{
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+h4{
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+#section1{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -20px;
+}
+.circle{
+    display: inline-block;
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    height: 135px;
+    width: 150px;
+    border-radius: 100%;
+    margin: -33px 75px;
+}
+.section2{
+    /* height: 220px; */
+    margin-bottom: -10px;
+}
+#section2{
+        margin-bottom: -10px;
+        padding: 20px;
+        text-align: center;
+        font-weight: bolder;
+}
+.left
+{
+    border: 2px solid grey;
+    background-color: grey;
+    margin: 5px;
+    height: 198px;
+    float: left;
+    color: white;
+}
+.right{
+    float: right;
+}
+.right .box{
+    border: 2px solid darkorange;
+    background-color: darkorange;
+    height: 60px;
+    width: 985px;
+    margin: 5px;
+}
+.article{
+    text-align: center;
+    padding: 0px;
+    color: white;
+}
+.box1{
+    display: inline-block;
+    border: 2px solid red;
+    height: 150px;
+    width: 100px;
+    background-color: red;
+    margin: 5px 100px;
+}
+.footer{
+    border: 2px solid rgb(212, 184, 208);
+    background-color: rgb(212, 184, 208);
+    margin: 5px;
+}
+#section3{
+    margin: 15px 265px;
+}
